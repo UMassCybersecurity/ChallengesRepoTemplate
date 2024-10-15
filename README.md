@@ -7,6 +7,7 @@
 We have development and production environments (two CTF environments) which are managed from the dev and prod branches. You will **NOT** be able to promote a challenge to production until it has passed E2E testing and been tested in the dev environment. 🤓
 
 ## How to Make a Challenge
+
 1. Create a branch for your challenge named *category*/*challenge name*.
 2. Create a new directory in the appropriate category for your challenge.
     - Use the following format (challenges/[category]/[challenge name])
