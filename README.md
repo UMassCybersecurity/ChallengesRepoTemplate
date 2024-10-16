@@ -12,6 +12,7 @@ We have development and production environments (two CTF environments) which are
     - Use the following format (challenges/[category]/[challenge name])
     - Each challenge should have the following things at the top level:
         - An optional static folder with downloadable assets.
+        - 
         - If dynamic: A Dockerfile with the EXPOSE tag or a docker-compose.yaml file.
         - info.yaml (see [info.yaml](./refs/info.yaml) for a basic reference or [full-info.yaml](./refs/full-info.yaml) for a full one)
 3. Create a PR to merge into the dev branch.
